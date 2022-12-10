@@ -1,0 +1,312 @@
+body
+{
+    border: 3px solid black;
+    height: 950px;
+    background-color: rgb(32, 32, 32);
+    color: azure;
+    background-image: url(FondChateau1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+div
+{
+    display: flex;
+}
+
+.container{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    height: 950px;
+}
+
+.Ekip{
+
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.Monstres{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    height: 82%;
+    
+}
+
+.HUD{
+
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    border: 3px solid black;
+    height: 200px;
+    width: 900px;
+    background-color: rgb(19, 8, 36);
+}
+
+
+        .PvMana{
+            display: flex;
+            flex-direction: column;
+            align-items: center
+        }
+
+        .StatsHéros{
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 2px solid rgb(19, 8, 36);
+            height: 190px;
+            width: 290px;
+            background-color: rgb(19, 8, 36);
+        }
+
+                #Pouario{
+
+                    border: 2px solid rgb(0, 0, 0);
+                    background-color: rgb(0, 0, 0);
+                    height: 45px;
+                    width: 280px;
+                }
+
+                        #NomPouario{
+                            
+                            border: 1px black;
+                            height: 40px;
+                            width: 100px;
+                        }
+
+                        #PvPouario{
+                            border: 1px solid black;
+                            background-color: rgb(204, 0, 0);
+                            height: 19px;
+                            width: 180px;
+
+                        }
+
+                        #ManaPouario{
+
+                            border: 1px solid black;
+                            background-color: rgb(0, 95, 236);
+                            height: 19px;
+                            width: 180px;
+
+                        }
+
+
+
+                #Foshi{
+
+                    border: 2px solid rgb(0, 0, 0);
+                    background-color: rgb(0, 0, 0);
+                    height: 45px;
+                    width: 280px;
+                }
+
+                        #NomFoshi{
+                            border: 1px black;
+                            height: 40px;
+                            width: 100px;
+                        }
+
+                        #PvFoshi{
+
+                            border: 1px solid black;
+                            background-color: rgb(204, 0, 0);
+                            height: 19px;
+                            width: 180px;
+
+                        }
+
+                        #ManaFoshi{
+
+                            border: 1px solid black;
+                            background-color: rgb(0, 95, 236);
+                            height: 19px;
+                            width: 180px;
+
+                        }
+
+                #Kitch{
+
+                    border: 2px solid rgb(0, 0, 0);
+                    background-color: rgb(0, 0, 0);
+                    height: 45px;
+                    width: 280px;
+                }
+
+                        #NomKitch{
+                            border: 1px black;
+                            height: 40px;
+                            width: 100px;
+                        }
+
+                        #PvKitch{
+
+                            border: 1px solid black;
+                            background-color: rgb(204, 0, 0);
+                            height: 19px;
+                            width: 180px;
+
+                        }
+
+                        #ManaKitch{
+
+                            border: 1px solid black;
+                            background-color: rgb(0, 95, 236);
+                            height: 19px;
+                            width: 180px;
+
+                        }
+
+                #Puigi{
+                    border: 2px solid rgb(0, 0, 0);
+                    background-color:rgb(0, 0, 0);
+                    height: 45px;
+                    width: 280px;
+                }
+
+                        #NomPuigi{
+                            border: 1px black;
+                            height: 40px;
+                            width: 100px;
+                        }
+
+                        #PvPuigi{
+
+                            border: 1px solid black;
+                            background-color: rgb(204, 0, 0);
+                            height: 19px;
+                            width: 180px;
+
+                        }
+
+                        #ManaPuigi{
+
+                            border: 1px solid black;
+                            background-color: rgb(0, 95, 236);
+                            height: 19px;
+                            width: 180px;
+
+                        }
+
+
+        .Actions{
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+            border: 2px solid rgb(90, 100, 100);
+            height: 180px;
+            width: 290px;
+            background-color: rgb(90, 100, 100);
+        }
+
+                .Attaque{
+                    background-color:rgb(0, 0, 0);
+                    border: 2px solid rgb(0, 0, 0);
+                    height: 40px;
+                    width: 200px;
+                }
+
+                .AttaqueSpeciale{
+                    background-color: rgb(0, 0, 0);
+                    border: 2px solid rgb(0, 0, 0);
+                    height: 40px;
+                    width: 200px;
+                }
+
+                .Defense{
+                    background-color: rgb(0, 0, 0);
+                    border: 2px solid rgb(0, 0, 0);
+                    height: 40px;
+                    width: 200px;
+                }
+
+
+        .StatsMonstres{
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+            border: 2px solid rgb(90, 100, 100);
+            height: 180px;
+            width: 290px;
+            background-color: rgb(90, 100, 100);
+        }
+
+                .Morsay{
+                    
+                    align-items: center;
+                    background-color: rgb(0, 0, 0);
+                    border: 2px solid rgb(0, 0, 0);
+                    height: 40px;
+                    width: 240px;
+                }
+
+                        #IconeMorsay{
+                            border: 2px black;
+                            height: 40px;
+                            width: 100px;
+                        }
+
+                        #PvMorsay{
+
+                            border: 2px solid black;
+                            background-color: rgb(204, 0, 0);
+                            height: 28px;
+                            width: 180px;
+
+                        }
+
+                .Goomba{
+                    background-color: rgb(0, 0, 0);
+                    border: 2px solid rgb(0, 0, 0);
+                    height: 40px;
+                    width: 240px;
+                }
+                        
+                        #IconeGoomba{
+                            border: 2px black;
+                            height: 40px;
+                            width: 100px;
+                        }
+
+                        #PvGoomba{
+
+                            border: 2px solid black;
+                            background-color: rgb(204, 0, 0);
+                            height: 28px;
+                            width: 180px;
+
+                        }
+
+                .BobOmb{
+                    background-color: rgb(0, 0, 0);
+                    border: 2px solid rgb(0, 0, 0);
+                    height: 40px;
+                    width: 240px;
+                }
+
+                        #IconeBobOmb{
+                            border: 2px black;
+                            height: 40px;
+                            width: 100px;
+                        }
+
+                        #PvBobOmb{
+
+                            border: 2px solid black;
+                            background-color: rgb(204, 0, 0);
+                            height: 28px;
+                            width: 180px;
+
+                        }
+  
+        
+        
